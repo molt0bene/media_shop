@@ -23,3 +23,9 @@ data_book = {
 
 book = Book.new(data_book)
 puts book
+
+book_from_file = Book.from_file('./data/books/gore_ot_uma.txt')
+puts book_from_file
+
+film_from_file = Film.from_file('./data/films/back_to_future.txt')
+puts film_from_file
